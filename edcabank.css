@@ -35,3 +35,11 @@
     color: blue;
     transition: 0.8s;
 }
+/* px é uma unidade de medida de tamanho fixo*/
+/* em - Ele trabalha em relação ao tamanho da fonte do elemento pai/* 2em é igual a 20 px  3em é 30 px/* sempre no font size/ em olha sempre pro elemento pai
+/* rem - R significa root em = ele vai depender do elemento pai em tudo (html) documento principal da página*/
+/*rem sempre olha para o html*/  /* mais usual usar este parâmetro para contagem */ /* em ele vai olhar sempre para o elemnto pai (padrão)*/
+/*rem sempre estará olhando para o elemento pai dele html*/
+/* vh - viewport height tamamho em relação a tela do uduário*/
+/*vw - viewport width tamanho (largura) em relação a tela do usuário*/
+
