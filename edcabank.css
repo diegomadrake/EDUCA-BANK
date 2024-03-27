@@ -68,14 +68,17 @@
 #sessao button {
     padding: 25px;
     border-radius: 50px;
-    border-color: rgb rgb(19, 153,108);
+    border-color:  rgb(19, 153,108);
     width:20em;
     cursor: pointer;
+    color: rgb(19, 153,108);
     
 }
-#sessao button {
+#sessao button :hover{
     text-decoration: none;
     color: rgb(19,153,108); 
+    transition: 8.0s;
+    border-color: white;
 }
 
 #app {
@@ -88,9 +91,10 @@
 #app div button {
     padding: 25px;
     border-radius: 50px;
-    border-color: rgb rgb(19, 153,108);
+    border-color:  rgb(19, 153,108);
     width:20em;
     cursor: pointer;
+    color: rgb(19, 153,108);
 }
 #app button a {
     text-decoration: none;
@@ -120,6 +124,17 @@
     margin-top: -20rem;
     margin-bottom: 2rem;
 }
+
+
+#container button {
+    padding: 20px;
+    border-radius: 50px;
+    border-color:  rgb(19, 153,108);
+    width: 20em;
+    cursor: pointer;
+    color: rgb(19, 153,108);
+}
+
 #container P {
 font-size: 1.4rem;
 color: rgb(34, 34, 74);
@@ -128,7 +143,7 @@ text-align:justify;
 }
 .line {
     width: 70%;
-    margin: 45 auto;
+    margin: 45px auto;
 }
 #container img {
 width: 45rem;
@@ -136,9 +151,68 @@ margin-left: 50px;
 }
 
 #container-cofre {
-    background: linear-gradient(180deg,  #0c16a364 8.33, rgba (5, 39, 101, 0.745) 100%), url(imagens/img\ cofre\ fundo.jpg); 
+    background: linear-gradient(180deg,#0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(imagens/img\ cofre\ fundo.jpg); 
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10rem;
 }
 
+#container-cofre img {
+    width: 20rem;
+    height: auto;
+    margin-top: 9rem;
+
+}
+#container-cofre h2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+
+#container-cofre p {
+    color:rgb(255, 255, 255);
+    font-size: 17px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-weight: 800;
+}
+
+.footer-div a {
+    text-decoration: none;
+    color: black;
+
+}
+.footer-div p {
+    color: rgba(5, 39, 101, 0.745);
+}
+.footer-div a:hover {
+    color: aquamarine;
+    transition: 0s;
+
+}
+footer {
+    padding: 5rem;
+    background-color: gray;
+    text-align: center;
+}
+footer div {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+footer div a {
+    text-decoration: none;
+    color: white;
+}
+footer div a:hover {
+    color: purple;
+    transition: 0.8s;
+}
 
 
 
